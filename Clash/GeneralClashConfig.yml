@@ -67,8 +67,6 @@ dns:
   enable: true # 是否启用dns false
   listen: :8053
   ipv6: true
-  default-nameserver:
-    - 8.8.8.8
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
   use-hosts: true
   fake-ip-range: 198.18.0.1/16 #
